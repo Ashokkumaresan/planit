@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #fff;
+}
+.layout{
+	height:450px;
+}
+.first{
+	background: #eee;
+	background-image: url('../img/stock.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+	width: 100%;
+	height: inherit;
+    background: #eee;
+    opacity: 0.9;
+    position: absolute;
+}
+.content{
+	width: 100%;	
+	height: inherit;
+}
