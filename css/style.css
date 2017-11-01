@@ -4,22 +4,52 @@ body{
 	background: #fff;
 }
 .layout{
-	height:450px;
-}
-.first{
-	background: #eee;
-	background-image: url('../img/stock.jpg');
+	height:700px;
 	background-repeat: no-repeat;
     background-size: cover;
 }
+.first{
+	background-image: url('../img/first.jpg');	
+}
+.second{
+	background-image: url('../img/second.jpg');	
+}
+.third{
+	background-image: url('../img/third.jpg');	
+}
+.fourth{
+	background-image: url('../img/fourth.jpg');	
+}
+.fifth{
+	background-image: url('../img/fifth.jpg');	
+}
 .cover{
 	width: 100%;
-	height: inherit;
-    background: #eee;
+	height: inherit;   
     opacity: 0.9;
     position: absolute;
 }
+.fir_back{
+	background: #231e44;
+}
+.sec_back{
+	background: #df673b;
+}
+.thi_back{
+	background: #7bb64a;
+}
+.fou_back{
+	background: #244c69;
+}
 .content{
-	width: 100%;	
+	width: 1400px;	
 	height: inherit;
+	text-align: center;
+	margin:0 auto;
+}
+h1,h2,h3,h4,p{
+	color: #fff;
+}
+.pad{
+	padding-top: 70px;
 }
