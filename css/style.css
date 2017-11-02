@@ -2,11 +2,20 @@ body{
 	margin:0;
 	padding: 0;
 	background: #fff;
+	font-family: 'Slabo 27px', serif!important;
 }
 .layout{
 	height:700px;
 	background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.logo{
+	padding-bottom: 30px;
+}
+.logo img{
+	width:290px;
+	opacity: 0;
 }
 .first{
 	background-image: url('../img/first.jpg');	
@@ -41,15 +50,70 @@ body{
 .fou_back{
 	background: #244c69;
 }
+.fiv_back{
+	background:#df673b;
+}
 .content{
-	width: 1400px;	
+	width: 1000px;	
 	height: inherit;
 	text-align: center;
 	margin:0 auto;
 }
 h1,h2,h3,h4,p{
 	color: #fff;
+	padding-bottom: 20px;
+	word-spacing: 4px;
+    letter-spacing: 2px;
+    word-break: break-word;
+    transition: all linear 0.4s;
+     transform: translateY(40px);
+     opacity: 0.7; 
+}
+h1{
+	font-size: 50px;
+}
+h3,p{
+	width: 100%;
+	float: left;
 }
 .pad{
 	padding-top: 70px;
+}
+.list{
+	    float: left;
+    text-align: left;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 90px;
+        transition: all linear 0.4s;
+     transform: translateX(-40px) translateY(40px);
+     opacity: 0.7; 
+}
+.list ul li{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.arrow{
+	position: fixed;
+    z-index: 999;
+    background: #fff;
+    width: 30px;
+    border-radius: 20px;
+    height: 30px;
+    transform: scale(1.4);
+    right: 25px;
+    bottom: 20px;
+}
+.arrow .fa{
+position: absolute;	
+	font-size: 12px;
+	right: 9px;
+	cursor: pointer;
+}
+.arrow .up{	
+	top: 2px;	
+}
+.arrow .down{
+	bottom: 2px;	
 }
